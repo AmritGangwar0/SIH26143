@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+npm-debug.log*
+
+# Secrets / env
+.env
+.env.local
+*.key
+
+# Storage / data
+storage/raw/*
+storage/processed/*
+storage/model_outputs/*
+storage/drift_outputs/*
+storage/exports/*
+!storage/**/.gitkeep
+
+# Models / weights
+ai_models/**/weights/
+ai_models/**/*.pt
+ai_models/**/*.onnx
+ai_models/**/*.engine
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
